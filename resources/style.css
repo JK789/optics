@@ -69,7 +69,34 @@ align-items: center;
 
 /* Services */
 
+#services-container {
+  width: 960px;
+  margin: 0 auto 3rem auto;
+  display: flex;
+  justify-content: center;
+  height: 8rem;
 
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 8rem;
+  width: 5rem;
+  margin: 3rem;
+  text-align: center;
+  align-items: center;
+}
+
+.icon {
+  width: 3.5rem;
+}
+
+.service-title {
+  display: block;
+  text-align: center;
+}
 
 /* Philosophy & Appointments */
 
@@ -90,6 +117,7 @@ align-items: center;
   padding-bottom: 0.5rem;
   padding-left: 1.25rem;
   width: 10rem;
+  margin-top: 3rem;
 }
 
 .pa-body {
@@ -112,10 +140,9 @@ align-items: center;
   width: 960px;
   margin: 0 auto;
   background-color: azure;
-}
-
-.footer-logo {
-
+  padding: 4rem 2rem;
+  display: flex;
+  align-items: center;
 }
 
 #black-logo {
