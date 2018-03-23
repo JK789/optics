@@ -1,0 +1,133 @@
+html {
+font-size: 18px;
+line-height: 1.4;
+font-family: "Helvetica", sans-serif;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: cadetblue;
+  color: white;
+  display: flex;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 1rem;
+  position: fixed;
+  width: 960px;
+  margin-top: 1rem;
+}
+
+#logo {
+display: flex;
+}
+
+#logoimage {
+  height: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 1rem;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+/* Banner */
+
+.banner {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.banner-text {
+  background-color: white;
+  padding: 1.5rem 1.5rem;
+  float: right;
+}
+
+.banner-text h2 {
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+/* Services */
+
+.services-container {
+  width: 960px;
+  margin: 3rem auto;
+  display: flex;
+  justify-content: center;
+}
+
+.single-service-container {
+  height: 8rem;
+  border: solid black 3px;
+  width: 5rem;
+}
+
+.product-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.services-title {
+  text-align: center;
+}
+
+#exams-div {
+  margin-right: 6rem;
+}
+
+#fittings-div {
+  margin-right: 6rem;
+}
+
+#delivery-icon, #exams-icon, #fittings-icon {
+  width: 3.5rem;
+}
+
+/* Philosophy & Appointments */
+
+.philosophy-appointments-container {
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.pa-title {
+  font-weight: bold;
+  font-size: 1rem;
+  color: white;
+  text-transform: uppercase;
+  background-color: cadetblue;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1.25rem;
+  width: 10rem;
+}
+
+.pa-body {
+  padding-top: 1rem;
+  line-height: 1.4;
+}
+
+#philosophy, #appointments {
+  width: 35%;
+}
+
+.spacer {
+  background-color: white;
+  width: 5%;
+}
