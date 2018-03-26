@@ -22,6 +22,27 @@ header {
   align-items: center;
 }
 
+@media only screen and (max-width: 1024px) {
+  header {
+    margin-top: 0;
+    width: 100%;
+  }
+
+  .container {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  #mobile-menu {
+    display: block;
+  }
+
+  #nav-menu {
+    display: none;
+  }
+}
+
 #logo {
 display: flex;
 flex-grow: 1;
@@ -38,9 +59,12 @@ align-items: center;
   padding-right: 2rem;
 }
 
-.mobile-menu {
-  display: none;
+@media only screen and (min-width: 561px) {
+  #mobile-menu {
+    display: none;
+  }
 }
+
 
 /* Banner */
 
@@ -54,10 +78,49 @@ align-items: center;
   align-items: center;
 }
 
+@media only screen and (max-width: 1024px) {
+  .banner {
+    height: 22rem;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .banner {
+    height: 17rem;
+  }
+}
+
 .banner-text {
   background-color: white;
-  padding: 1.5rem 1.5rem;
+  padding: 1.5rem 5rem;
   float: right;
+}
+
+@media only screen and (max-width: 1024px) {
+  .banner-text {
+    padding: 0.75rem 4rem;
+    margin-top: 5rem;
+  }
+
+  .banner-text h2 {
+    font-size: 1.33rem;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .banner-text {
+    padding: 1rem 0rem;
+    margin-top: 9rem;
+  }
+
+  .banner-text h2 {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  #company-name {
+    display: none;
+  }
 }
 
 .banner-text h2 {
@@ -76,6 +139,20 @@ align-items: center;
   justify-content: center;
   height: 8rem;
 
+}
+
+@media only screen and (max-width: 560px) {
+#services-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 3.77rem;
+  height: auto;
+}
+  .service {
+    margin-top: 1.54rem;
+    margin-bottom: 1.54rem;
+  }
 }
 
 .service {
@@ -105,6 +182,13 @@ align-items: center;
   margin: 0 auto;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 560px) {
+  .philosophy-appointments-container {
+    width: 100%;
+  }
 }
 
 .pa-title {
@@ -129,6 +213,25 @@ align-items: center;
   width: 35%;
 }
 
+@media only screen and (max-width: 560px) {
+  #philosophy, #appointments {
+    font-size: 0.77rem;
+          width: 100%;
+  }
+  .pa-title {
+      width: 100%;
+      text-align: center;
+}
+  .pa-body {
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+  }
+
+  .copyright {
+    display: none;
+  }
+}
+
 .spacer {
   background-color: white;
   width: 5%;
@@ -143,6 +246,12 @@ align-items: center;
   padding: 4rem 2rem;
   display: flex;
   align-items: center;
+}
+
+@media only screen and (max-width: 560px) {
+  .footer-container {
+    width: 100%;
+  }
 }
 
 #black-logo {
