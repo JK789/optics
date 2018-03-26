@@ -33,9 +33,10 @@ header {
   }
 }
 
-@media only screen and (max-width: 560px) {
+@media only screen and (max-width: 700px) {
   #mobile-menu {
     display: block;
+    padding-right: 2rem;
   }
 
   #nav-menu {
@@ -59,7 +60,7 @@ align-items: center;
   padding-right: 2rem;
 }
 
-@media only screen and (min-width: 561px) {
+@media only screen and (min-width: 701px) {
   #mobile-menu {
     display: none;
   }
@@ -111,6 +112,7 @@ align-items: center;
   .banner-text {
     padding: 1rem 0rem;
     margin-top: 9rem;
+    width: 100%;
   }
 
   .banner-text h2 {
@@ -141,17 +143,20 @@ align-items: center;
 
 }
 
+@media only screen and (max-width: 1024px) {
+#services-container {
+  width: 100%;
+  }
+}
+
 @media only screen and (max-width: 560px) {
 #services-container {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 3.77rem;
+  margin-bottom: 1.54rem;
   height: auto;
-}
-  .service {
-    margin-top: 1.54rem;
-    margin-bottom: 1.54rem;
+  margin-top: 3.77rem;
   }
 }
 
@@ -183,6 +188,12 @@ align-items: center;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 1024px) {
+  .philosophy-appointments-container {
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 560px) {
@@ -246,6 +257,12 @@ align-items: center;
   padding: 4rem 2rem;
   display: flex;
   align-items: center;
+}
+
+@media only screen and (max-width: 1024px) {
+  .footer-container {
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 560px) {
